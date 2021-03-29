@@ -11,3 +11,100 @@ body {
 section {
   padding-top: 6rem;
 }
+
+.container-fluid {
+  margin: auto;
+  color: white;
+}
+.container-fluid h5 {
+  font-size: 24px;
+}
+.container-fluid section p {
+  margin-top: -10px;
+  font-size: 14px;
+}
+.container-fluid section h6 {
+  margin-top: -15px;
+  font-size: 14px;
+}
+.about h5 {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 20px;
+  color: white;
+  padding: 30px;
+}
+.isi {
+  margin-top: 10px;
+  text-align: justify;
+  color: white;
+  padding: 0px 30px;
+}
+
+.competen {
+  margin-top: 16px;
+  text-align: left;
+  padding: 30px;
+}
+.competen mark {
+  font-size: 18px;
+}
+.competen table h6 {
+  margin-top: 15px;
+  padding: 0px 30px;
+  font-size: 14px;
+}
+
+.work {
+  text-align: left;
+  padding: 0px 30px;
+}
+.work mark {
+  font-size: 18px;
+}
+.work table h6 {
+  padding: 0px 30px;
+  margin-top: -15px;
+}
+.dep {
+  margin-top: -15px;
+}
+.pro h6 {
+  padding: 0px 30px;
+}
+
+/* Desktop version */
+@media (min-width: 992px) {
+  .jumbotron {
+    margin: auto;
+    padding-top: 6rem;
+    background-color: #242526;
+  }
+  .container-fluid h5 {
+    font-size: 32px;
+  }
+  .container-fluid section p {
+    font-size: 16px;
+  }
+  .container-fluid section h6 {
+    margin-top: -15px;
+    font-size: 16px;
+  }
+  .about h5 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    padding: 30px;
+  }
+  .about h6 {
+    margin-top: 10px;
+    text-align: justify;
+    color: white;
+    padding: 0px 30px;
+  }
+  .competen table h6 {
+    margin-top: 15px;
+    padding: 0px 30px;
+  }
+}
