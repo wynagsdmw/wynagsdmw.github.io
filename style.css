@@ -72,7 +72,11 @@ section {
 .pro h6 {
   padding: 0px 30px;
 }
-
+.slide {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
 /* Desktop version */
 @media (min-width: 992px) {
   .jumbotron {
@@ -106,5 +110,10 @@ section {
   .competen table h6 {
     margin-top: 15px;
     padding: 0px 30px;
+  }
+  .slide {
+    margin: auto;
+    width: 550px;
+    height: 550px;
   }
 }
