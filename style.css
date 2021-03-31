@@ -1,8 +1,9 @@
 body {
-  background-color: #18191a;
+  background-color: #000;
 }
 .jumbotron {
-  background-color: #242526;
+  margin: auto;
+  background-color: #000;
   height: 750px;
 }
 
@@ -72,12 +73,15 @@ section {
 }
 .slide {
   margin: auto;
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
 }
 .keren {
   font-family: "Dancing Script", cursive;
   font-size: 100px;
+}
+.galeri {
+  margin: auto;
 }
 
 /* Desktop version */
@@ -85,7 +89,7 @@ section {
   .jumbotron {
     margin: auto;
     padding-top: 6rem;
-    background-color: #242526;
+    background-color: #000;
   }
   .container-fluid h5 {
     font-size: 32px;
