@@ -2,14 +2,12 @@ body {
   background-color: #18191a;
 }
 .jumbotron {
-  padding-top: 6rem;
   background-color: #242526;
+  height: 750px;
 }
-#galeri {
-  background-color: #18191a;
-}
+
 section {
-  padding-top: 12rem;
+  padding-top: 4rem;
 }
 
 .container-fluid {
@@ -74,8 +72,8 @@ section {
 }
 .slide {
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 .keren {
   font-family: "Dancing Script", cursive;
